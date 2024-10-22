@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 50px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	max-width: 400px;
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+	height: 90px;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	padding: 25px 35px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.form--row {
+	height: 55px;
+
+	input,
+	select {
+		height: 100%;
+		width: 100%;
+		outline: none;
+		padding-left: 15px;
+		font-size: 17px;
+		font-weight: 400;
+		color: #333;
+		border: 1.5px solid #c7bebe;
+		border-bottom-width: 2.5px;
+		border-radius: 5px;
+		transition: all 0.3s ease;
+		background-color: white;
+	}
+}
+
+.form--submit-button input {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.form--switch-auth {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 15px;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

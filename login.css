@@ -1,0 +1,46 @@
+@import url('style.css');
+
+body {
+	background: #1abc9c;
+}
+
+.title {
+	background: #16a085;
+}
+
+.form--row input {
+	&:focus {
+		border-color: #16a085;
+	}
+
+	&::placeholder {
+		color: #999;
+	}
+}
+
+.form--forgot-password {
+	text-align: right;
+
+	a {
+		color: #16a085;
+		font-size: 17px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.form--submit-button input {
+	background: #16a085;
+	border: 1px solid #16a085;
+
+	&:hover {
+		background: #12876f;
+	}
+}
+
+.form--switch-auth a {
+	color: #16a085;
+}

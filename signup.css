@@ -1,0 +1,40 @@
+@import url('style.css');
+
+body {
+	background: #6a91f6;
+}
+
+.title {
+	background-color: #4070f4;
+}
+
+.form--row input {
+	&:focus {
+		border-color: #4070f4;
+	}
+}
+
+.form--policy {
+	display: flex;
+	align-items: center;
+
+	label {
+		color: #707070;
+		font-size: 14px;
+		font-weight: 500;
+		margin-left: 10px;
+	}
+}
+
+.form--submit-button input {
+	background: #4070f4;
+	border: 1px solid #4070f4;
+
+	&:hover {
+		background: #0e4bf1;
+	}
+}
+
+.form--switch-auth a {
+	color: #4070f4;
+}
